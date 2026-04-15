@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --bg: #050505;
+  --panel: #111111;
+  --accent-cyan: #00f3ff;
+  --accent-pink: #ff00ff;
+  --accent-lime: #39ff14;
+  --text: #e0e0e0;
+  --text-dim: #888888;
+  --border: #222222;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
